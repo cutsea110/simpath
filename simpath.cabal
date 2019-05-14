@@ -18,7 +18,7 @@ build-type:          Simple
 extra-source-files:  CHANGELOG.md, README.md
 
 library
-  exposed-modules:     Simpath.Border, Simpath.Edge, Simpath.Common, Simpath.Frontier
+  exposed-modules:     Simpath.Border, Simpath.CounterMap, Simpath.Edge, Simpath.Common, Simpath.Frontier
   -- other-modules:
   other-extensions:    FlexibleContexts
   build-depends:       base >=4.11 && <4.12, mtl >=2.2 && <2.3, containers >=0.5 && <0.6
